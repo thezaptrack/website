@@ -3,43 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ZAPTrack</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Embed Example</title>
+    <style>
+        /* Optional: Add some basic styling to center the iframe */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+    </style>
 </head>
-<body class="bg-black bg-opacity-90 text-white">
-    <header class="relative h-screen bg-cover bg-center" style="background-image: url('background.jpg');">
-        <div class="absolute inset-0 bg-black bg-opacity-0 flex flex-col justify-end items-center">
-            <!--<h1 class="text-5xl font-bold mb-4">ZAPTrack</h1>
-            <p class="text-lg mb-8 text-center max-w-lg">
-            </p>-->
-            <style>
-                .custom-button {
-                    display: inline-block;
-                    padding: 40px 80px;
-                    font-size: 48px;
-                    font-weight: bold;
-                    text-align: center;
-                    text-decoration: none;
-                    background-color: rgba(128, 128, 128, 0.2);
-                    color: white;
-                    border: none;
-                    border-radius: 12px;
-                    cursor: pointer;
-                    transition: background-color 0.3s;
-                    position: absolute;
-                    bottom: 120px;
-                    left: 50%;
-                    transform: translateX(-50%);
-                }
-                .custom-button:hover {
-                    background-color: rgba(128, 128, 128, 0.3);
-                }
-            </style>
-            <a href="https://www.linkedin.com/company/104215155" target="_blank" class="custom-button">Follow Along</a>
-            <h3 class="font-sans antialiased text-2xl font-bold mb-4">Coming soon</h3>
-            <h5 class="font-sans antialiased text-2xl mb-2 text-center"> Smart farm robots that create $1 million in value per 300 acre farms through precision farming enabled by edge computing
-        </div>
-    </header>
-    
+<body>
+    <iframe src="https://zaptrack.framer.website/" style="width:100%; height:100vh; border:none;"></iframe>
 </body>
 </html>
